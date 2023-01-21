@@ -1,0 +1,22 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+2. Write a blog about objects and its internal representation in Javascript
+3. codekata practice
+
+
+https://github.com/reach2arunprakash/javascript-101/tree/master/ppt
+
+1. Difference between HTTP1.1 vs HTTP2
+HTTP1.1
+  * HTTP1.1 published in 1997 with lot of limitation compared to HTTP2
+  * In HTTP1.1 TCP connection with claint and sever was limited for example 6 TCP connection.
+  * HTTP has some flaws like Head of line block, Repeatation of header Data, More focus on gzip, minifing css/js, caching
+HTTP2
+  * HTTP2 published in 2015 which is next version of (SPDY/2 2012)   
+  * In HTTP2 has single TCP connection with multiple steam.
+  * Header connection HTTP2 compress a large number of redundant header frames.
+
+2. Objects and its internal representation in Javascript
+      Objects in JavaScript is most important data-type and forms the building blocks for modern JavaScript.
+      Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+      An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value.
+      That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value
